@@ -1,0 +1,78 @@
+{
+  "originHash" : "91b6ec72547f37a3223c3301cd194e4579ef400079383a9f1ffc9c9c0cb00a94",
+  "pins" : [
+    {
+      "identity" : "coreml-builder",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/unixpickle/coreml-builder.git",
+      "state" : {
+        "revision" : "e3bfb67d500c514ff3345112b9a5c6cce92128e8",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "gzipswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/1024jp/GzipSwift",
+      "state" : {
+        "revision" : "731037f6cc2be2ec01562f6597c1d0aa3fe6fd05",
+        "version" : "6.0.1"
+      }
+    },
+    {
+      "identity" : "honeycrisp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/unixpickle/honeycrisp",
+      "state" : {
+        "revision" : "0e64078848a916ecf4fc1b4842a1cfb1f2354c18",
+        "version" : "0.0.12"
+      }
+    },
+    {
+      "identity" : "mlx-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ml-explore/mlx-swift",
+      "state" : {
+        "revision" : "7f02cd874e380027540f305d9a8b36a40ef712b8",
+        "version" : "0.21.1"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "revision" : "41982a3656a71c768319979febd796c6fd111d5c",
+        "version" : "1.5.0"
+      }
+    },
+    {
+      "identity" : "swift-numerics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-numerics",
+      "state" : {
+        "revision" : "0a5bc04095a675662cf24757cc0640aa2204253b",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "swift-protobuf",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-protobuf",
+      "state" : {
+        "revision" : "ebc7251dd5b37f627c93698e4374084d98409633",
+        "version" : "1.28.2"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
+      "state" : {
+        "revision" : "0687f71944021d616d34d922343dcef086855920",
+        "version" : "600.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}

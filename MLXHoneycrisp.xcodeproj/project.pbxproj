@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		FA3C7A342D01261F009B877F /* MLXHoneycrisp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3C7A2B2D01261F009B877F /* MLXHoneycrisp.framework */; };
+		FA3C7A4A2D01266C009B877F /* MLX in Frameworks */ = {isa = PBXBuildFile; productRef = FA3C7A492D01266C009B877F /* MLX */; };
+		FA3C7A4C2D01266C009B877F /* MLXFast in Frameworks */ = {isa = PBXBuildFile; productRef = FA3C7A4B2D01266C009B877F /* MLXFast */; };
+		FA3C7A4E2D01266C009B877F /* MLXNN in Frameworks */ = {isa = PBXBuildFile; productRef = FA3C7A4D2D01266C009B877F /* MLXNN */; };
+		FA3C7A512D01269D009B877F /* HCBacktrace in Frameworks */ = {isa = PBXBuildFile; productRef = FA3C7A502D01269D009B877F /* HCBacktrace */; };
+		FA3C7A532D01269D009B877F /* HCTestUtils in Frameworks */ = {isa = PBXBuildFile; productRef = FA3C7A522D01269D009B877F /* HCTestUtils */; };
+		FA3C7A552D01269D009B877F /* Honeycrisp in Frameworks */ = {isa = PBXBuildFile; productRef = FA3C7A542D01269D009B877F /* Honeycrisp */; };
+		FA3C7A582D0129D7009B877F /* HCBacktrace in Frameworks */ = {isa = PBXBuildFile; productRef = FA3C7A572D0129D7009B877F /* HCBacktrace */; };
+		FA3C7A5A2D0129E1009B877F /* Honeycrisp in Frameworks */ = {isa = PBXBuildFile; productRef = FA3C7A592D0129E1009B877F /* Honeycrisp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +64,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3C7A4E2D01266C009B877F /* MLXNN in Frameworks */,
+				FA3C7A4C2D01266C009B877F /* MLXFast in Frameworks */,
+				FA3C7A552D01269D009B877F /* Honeycrisp in Frameworks */,
+				FA3C7A512D01269D009B877F /* HCBacktrace in Frameworks */,
+				FA3C7A4A2D01266C009B877F /* MLX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +77,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3C7A342D01261F009B877F /* MLXHoneycrisp.framework in Frameworks */,
+				FA3C7A532D01269D009B877F /* HCTestUtils in Frameworks */,
+				FA3C7A5A2D0129E1009B877F /* Honeycrisp in Frameworks */,
+				FA3C7A582D0129D7009B877F /* HCBacktrace in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +91,7 @@
 			children = (
 				FA3C7A2D2D01261F009B877F /* MLXHoneycrisp */,
 				FA3C7A372D01261F009B877F /* MLXHoneycrispTests */,
+				FA3C7A562D0129D7009B877F /* Frameworks */,
 				FA3C7A2C2D01261F009B877F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,6 +103,13 @@
 				FA3C7A332D01261F009B877F /* MLXHoneycrispTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3C7A562D0129D7009B877F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +143,11 @@
 			);
 			name = MLXHoneycrisp;
 			packageProductDependencies = (
+				FA3C7A492D01266C009B877F /* MLX */,
+				FA3C7A4B2D01266C009B877F /* MLXFast */,
+				FA3C7A4D2D01266C009B877F /* MLXNN */,
+				FA3C7A502D01269D009B877F /* HCBacktrace */,
+				FA3C7A542D01269D009B877F /* Honeycrisp */,
 			);
 			productName = MLXHoneycrisp;
 			productReference = FA3C7A2B2D01261F009B877F /* MLXHoneycrisp.framework */;
@@ -142,6 +171,9 @@
 			);
 			name = MLXHoneycrispTests;
 			packageProductDependencies = (
+				FA3C7A522D01269D009B877F /* HCTestUtils */,
+				FA3C7A572D0129D7009B877F /* HCBacktrace */,
+				FA3C7A592D0129E1009B877F /* Honeycrisp */,
 			);
 			productName = MLXHoneycrispTests;
 			productReference = FA3C7A332D01261F009B877F /* MLXHoneycrispTests.xctest */;
@@ -159,6 +191,7 @@
 				TargetAttributes = {
 					FA3C7A2A2D01261F009B877F = {
 						CreatedOnToolsVersion = 16.1;
+						LastSwiftMigration = 1610;
 					};
 					FA3C7A322D01261F009B877F = {
 						CreatedOnToolsVersion = 16.1;
@@ -174,6 +207,10 @@
 			);
 			mainGroup = FA3C7A212D01261F009B877F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FA3C7A482D01266C009B877F /* XCRemoteSwiftPackageReference "mlx-swift" */,
+				FA3C7A4F2D01269D009B877F /* XCRemoteSwiftPackageReference "honeycrisp" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FA3C7A2C2D01261F009B877F /* Products */;
 			projectDirPath = "";
@@ -231,7 +268,8 @@
 		FA3C7A3D2D01261F009B877F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -256,6 +294,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -263,7 +302,8 @@
 		FA3C7A3E2D01261F009B877F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -475,6 +515,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA3C7A482D01266C009B877F /* XCRemoteSwiftPackageReference "mlx-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.21.1;
+			};
+		};
+		FA3C7A4F2D01269D009B877F /* XCRemoteSwiftPackageReference "honeycrisp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/unixpickle/honeycrisp";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 0.0.13;
+				minimumVersion = 0.0.12;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA3C7A492D01266C009B877F /* MLX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3C7A482D01266C009B877F /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLX;
+		};
+		FA3C7A4B2D01266C009B877F /* MLXFast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3C7A482D01266C009B877F /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLXFast;
+		};
+		FA3C7A4D2D01266C009B877F /* MLXNN */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3C7A482D01266C009B877F /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLXNN;
+		};
+		FA3C7A502D01269D009B877F /* HCBacktrace */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3C7A4F2D01269D009B877F /* XCRemoteSwiftPackageReference "honeycrisp" */;
+			productName = HCBacktrace;
+		};
+		FA3C7A522D01269D009B877F /* HCTestUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3C7A4F2D01269D009B877F /* XCRemoteSwiftPackageReference "honeycrisp" */;
+			productName = HCTestUtils;
+		};
+		FA3C7A542D01269D009B877F /* Honeycrisp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3C7A4F2D01269D009B877F /* XCRemoteSwiftPackageReference "honeycrisp" */;
+			productName = Honeycrisp;
+		};
+		FA3C7A572D0129D7009B877F /* HCBacktrace */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3C7A4F2D01269D009B877F /* XCRemoteSwiftPackageReference "honeycrisp" */;
+			productName = HCBacktrace;
+		};
+		FA3C7A592D0129E1009B877F /* Honeycrisp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3C7A4F2D01269D009B877F /* XCRemoteSwiftPackageReference "honeycrisp" */;
+			productName = Honeycrisp;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA3C7A222D01261F009B877F /* Project object */;
 }
